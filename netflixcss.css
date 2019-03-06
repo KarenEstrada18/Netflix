@@ -1,0 +1,71 @@
+body
+{
+   overflow-x: hidden;
+}
+
+
+.center-block {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2
+{
+	color: #FF0000;
+}	
+
+h5
+{
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.fondo
+{
+	background: #848484;
+}
+
+.peliculasfav
+{
+	height: 450px;
+	opacity: 0.7;
+}
+
+.card-title
+{
+	text-align: center;
+}
+
+.efecto:hover
+{
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	box-shadow: 0px 0px 15px 15px red;
+	-webkit-box-shadow: 0px 0px 15px 15px red;
+	transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+}
+
+.zoom:hover
+{
+-webkit-transform:scale(1.8);transform:scale(1.8);
+}
+
+.footer
+{
+	color: white;
+	background-color: #1b2127;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.footer img
+{
+	vertical-align: middle;
+}
+
